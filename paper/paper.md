@@ -2,7 +2,8 @@
 ## Serdar Polat
 
 ## Table of Contents
-1. [Introduction](#1-Introduction)
+1. [Introduction](#1-Introduction)\
+
 Nowadays there are many different programming languages.
 
 
