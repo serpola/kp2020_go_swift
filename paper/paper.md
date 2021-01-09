@@ -14,7 +14,7 @@
 5. [Conclusion](#Conclusion)
 
 # Introduction
-There are now many different programming languages. These differ in their concepts. Depending on what is to be implemented, one of them is used. For example, there are concepts of distributed programming, functional programming or object-oriented programming. This paper compares the concepts of object-oriented programming in the programming languages GO and Swift.
+Meanwhile there are many different programming languages. These differ in their concepts. Depending on what is to be implemented, one of them is used. For example, there are concepts of distributed programming, functional programming or object-oriented programming. This paper compares the concepts of object-oriented programming in the programming languages GO and Swift.
 
 The following chapter explains the concept of object-oriented programming in general. It then goes on to explain the basics of this object-oriented programming, how it can be depicted in diagrams and what the most important features of this are.
 
