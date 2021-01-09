@@ -5,7 +5,9 @@
 1. [Introduction](#1-Introduction)
 
 2. Koncept of Object Oriented Programming
-
+2.1 Concept
+2.2
+2.3
 
 3. [Golang](#Golang)
 
