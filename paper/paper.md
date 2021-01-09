@@ -14,10 +14,11 @@
 5. [Conclusion](#Conclusion)
 
 # Introduction
-Nowadays there are many different programming languages.
+There are now many different programming languages. These differ in their concepts. Depending on what is to be implemented, one of them is used. For example, there are concepts of distributed programming, functional programming or object-oriented programming. This paper compares the concepts of object-oriented programming in the programming languages GO and Swift.
+The following chapter explains the concept of object-oriented programming in general. It then goes on to explain the basics of this object-oriented programming, how it can be depicted in diagrams and what the most important features of this are.
+In the following two chapters, the concept of object-oriented programming in Go and Swift is explained. Here, the features explained in chapter 2 are used as a guide.
+In the last chapter of this thesis, the differences between the programming languages Go and Swift are explained in relation to object-oriented programming.
 
-
-The aim of this work is to compare Object Oriented Programming in GO with Swift.
 # Koncept of Object Oriented Programming
 
 # Golang
