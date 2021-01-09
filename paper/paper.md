@@ -5,9 +5,12 @@
 1. [Introduction](#1-Introduction)
 
 2. Koncept of Object Oriented Programming
-2.1 Concept
-2.2
-2.3
+2.1 Koncept
+2.2 Characteristics
+2.2.1 Classes
+2.2.2 Methods
+2.2.3 
+2.3 Figure
 
 3. [Golang](#Golang)
 
@@ -25,6 +28,12 @@ In the following two chapters, the concept of object-oriented programming in Go 
 In the last chapter of this thesis, the differences between the programming languages Go and Swift are explained in relation to object-oriented programming.
 
 # Koncept of Object Oriented Programming
+## Concept
+## Characteristics
+### Classes
+
+## Figure
+![alt text](https://adenetvm.m-s.ch/Doc/Diagramme/KlassenDiagramm-Dateien/image001.png)
 
 # Golang
 
