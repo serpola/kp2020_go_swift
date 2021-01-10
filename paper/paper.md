@@ -119,6 +119,23 @@ Return  r.length * r.wide
 # 4.Swift
 ## 4.1 Classes
 
+Swift offers classes for in comparison to Go. In addition, Swift also supports structures like GO. The most important similarities are that you can define properties for storing values and methods for providing functions. The biggest difference is that structures do not support inheritance like classes do. The coding for the implementation looks like this:
+'''
+//structur 
+struct Person{
+var name: String
+var age = 0
+}
+
+//class
+class Rectangle{
+
+var width = 0
+var lenth = 0
+
+}
+
+'''
 ## 4.2 Methods
 
 ## 4.3 Inheritance
