@@ -44,6 +44,7 @@ Thanks to polymorphisation, methods can be overwritten. This means that in subcl
 In object-oriented programming, generalisation is used to bundle classes and objects with common properties and methods into one logical unit.
 
 # 3.Golang
+Go lang is a open source Programming langue developed by Google and other contributors from the open source community. It was published in 2009. Important in the conception of this language was that the memory is managed automatically, fast compilation is possible and native support for concurrent, system-oriented programming is possible.
 
 # 4.Swift
 
