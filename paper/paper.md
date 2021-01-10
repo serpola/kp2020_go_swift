@@ -82,7 +82,7 @@ Virtual methods can be created through the Go interface. This means that a metho
 Instead of a square, one could also calculate the area with a rectangle. The code would then look like this:
 
 ```
-type berechnung interface{
+type calculation interface{
 Area() int
 }
 
