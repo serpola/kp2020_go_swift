@@ -127,4 +127,4 @@ Return  r.length * r.wide
 
 # 5.Conclusion
 
-Structures can be used to define types in Go in order to programme in an object-oriented manner. Classes are not needed for the implementation of objects. Inheritance in Go is achieved by embedding one or more structures in an "inheriting" structure. The methods of the structures can be used for other structures by embedding them. In addition, Go uses polymorphism and avoids complex type hierarchies.
+Structures can be used to define types in Go in order to programme in an object-oriented manner. Classes are not needed for the implementation of objects. Inheritance in Go is achieved by embedding one or more structures in an inheriting structure. The methods of the structures can be used for other structures by embedding them. In addition, Go uses polymorphism and avoids complex type hierarchies.
