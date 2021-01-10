@@ -45,6 +45,38 @@ In object-oriented programming, generalisation is used to bundle classes and obj
 
 # 3.Golang
 Go lang is a open source Programming langue developed by Google and other contributors from the open source community. It was published in 2009. Go is a multi-paradigm language, which means it is imperative and declarative. Important in the conception of this language was that the memory is managed automatically, fast compilation is possible and native support for concurrent, system-oriented programming is possible. 
+## Classes
+Go does not use classes for the implementation of object orchestration. Instead, it uses structures and interfaces.
+### Structures
+A structure contains a collection of elements. This is a type declaration. Structures can also be nested to represent more complex models.
+```
+type quadrat struct{
+
+Length int
+Wide int
+
+}
+
+```
+
+### Interfaces
+
+### Methods
+Methods are implemented with the definite ```func```. The call is similar to classes, only called via the structur.
+```
+Func ( q qudrat) Area () int{
+Return q.length * q.wide
+}
+
+func main() {
+  q := quadrat{2}
+  fmt.Println(q.Area())
+}
+
+```
+### Inheritance
+
+### Polymorphism
 
 # 4.Swift
 
