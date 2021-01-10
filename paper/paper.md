@@ -52,8 +52,7 @@ A structure contains a collection of elements. This is a type declaration. Struc
 ```
 type quadrat struct{
 
-Length int
-Wide int
+LaW int
 
 }
 
@@ -65,7 +64,7 @@ Wide int
 Methods are implemented with the definite ```func```. The call is similar to classes, only called via the structur.
 ```
 Func ( q qudrat) Area () int{
-Return q.length * q.wide
+Return q.LaW * q.LaW
 }
 
 func main() {
