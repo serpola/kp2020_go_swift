@@ -179,13 +179,55 @@ class Vehicle {
 
 //Inheritance
 class Car: Vehicle {
-    var hasBasket = true
+    //...
 }
 
 ```
 
 ## 4.4 Polymorphism
 
+Swift Supports polymorphism. The Coding therefore looks like:
+
+```
+class Vehicle {
+    var totaldriven = 0.0
+    var description: String {
+        return "the vehicle past \(totaldriven) kilometers"
+    }
+    func makeSound() {
+        // do nothing
+    }
+}
+
+//Inheritance
+class Car: Vehicle {
+//...
+    override func makeSound() {
+        // play motor sound
+    }
+}
+
+class Cycle: Vehicle {
+//...
+    override func makeSound() {
+        // mke no Sound
+    }
+}
+```
+
 # 5.Conclusion
 
 Structures can be used to define types in Go in order to programme in an object-oriented manner. Classes are not needed for the implementation of objects. Inheritance in Go is achieved by embedding one or more structures in an inheriting structure. The methods of the structures can be used for other structures by embedding them. In addition, Go uses polymorphism and avoids complex type hierarchies.
+
+Compared to Go, Swift offers additional class implementations for object-oriented programming. Inheritance is thus also offered here. Methods can be called by instances of classes as well as structures. Polymorphism is also offered in Swift.
+
+The big difference is that Go does not offer classes and inheritance.
+
+
+# Literature
+https://www.inztitut.de/blog/glossar/objekte/
+https://golang.org/doc/
+https://www.innoq.com/de/blog/golang-grundlagen/
+https://swift.org/documentation/
+https://code.tutsplus.com/tutorials/swift-from-scratch-an-introduction-to-classes-and-structures--cms-23197
+https://www.raywenderlich.com/599-object-oriented-programming-in-swift
