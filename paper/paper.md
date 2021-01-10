@@ -4,7 +4,7 @@
 ## Table of Contents
 1. [Introduction](#1.Introduction)
 
-2. [Concept of Object Oriented Programming](# 2.Concept of Object Oriented Programming)
+2. [Concept of OOP](# 2.Concept of Object Oriented Programming)
 
 2.1 [Concept](# 2.1Concept)
 
