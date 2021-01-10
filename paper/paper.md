@@ -76,6 +76,30 @@ func main() {
 ```
 ### Inheritance
 
+
+```
+type Person structur{
+Name string
+Alter int
+}
+type Student structur {
+Person
+martikelnummer int
+} 
+func (p Person)setName(){
+//…
+}
+func main() {
+  p := &Person{Name:"Max"}
+  s := &Student{p}
+
+  p.setName()
+  s.setName()
+}
+
+
+```
+
 ### Polymorphism
 
 Virtual methods can be created through the Go interface. This means that a method can be implemented by different structures. Polymorphism is thus supported in Go.
