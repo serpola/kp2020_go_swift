@@ -164,6 +164,26 @@ cal.addition(byA: 1, byB: 2 )
 
 ## 4.3 Inheritance
 
+Inheritance is not very different in concept from other programming languages that provide inheritance. You inherit all the properties and methods of the superclass and Swift also offers overwriting of the methods.
+The syntax for inheritance looks like this:
+```
+class Vehicle {
+    var totaldriven = 0.0
+    var description: String {
+        return "the vehicle past \(totaldriven) kilometers"
+    }
+    func makeSound() {
+        // do nothing
+    }
+}
+
+//Inheritance
+class Car: Vehicle {
+    var hasBasket = true
+}
+
+```
+
 ## 4.4 Polymorphism
 
 # 5.Conclusion
