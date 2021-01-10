@@ -31,8 +31,16 @@ Object-oriented programming is a programming paradigm of imperative programming.
 Object-oriented programming not only saves time because the code does not have to be written and adapted repeatedly, it also avoids copy-and-paste errors that occur during adaptation. Above all, through the inheritance of class-based languages, the basic code does not change through the original class and this makes it easier to implement new classes more quickly. Additionally it avoids to rewrite already existing methods a second time.
 
 ## Characteristics
+### Objects
+Objects have attributes that have a certain state at a certain time. The state of the variables can be changed by methods to obtain expected values for the object.
 ### Classes
-
+Classes are the blueprint for the objects. They are used to manage similar objects such as a car. Cars have the same characteristics, but their properties such as make, colour, model or age can be different. Thus, the class would be the blueprint for objects of cars.
+### Inheritance
+Objects and classes share common properties in object-oriented programming according to the concept of inheritance. Superclasses inherit the properties they possess to subclasses. For example, a car is the subclass of vehicles, whereas a motorbike is also a subclass of vehicles. Since vehicles share properties such as colour, brand or mileage. This also additionally reduces the programming effort. For example, methods for determining the kilometre reading can already be implemented in the superclass Vehicle and do not have to be implemented again in the subclass.  [] 
+### Polymorphism
+Thanks to polymorphisation, methods can be overwritten. This means that in subclasses, methods with the same names of the superclass can be adapted specifically to the subclass. In addition, polymorphism allows object variables of the superclass to take on the object variables of the subclass. 
+### Generalization
+In object-oriented programming, generalisation is used to bundle classes and objects with common properties and methods into one logical unit.
 ## Figure
 ![alt text](https://adenetvm.m-s.ch/Doc/Diagramme/KlassenDiagramm-Dateien/image001.png)
 
