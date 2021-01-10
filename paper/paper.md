@@ -7,10 +7,7 @@
 2. Koncept of Object Oriented Programming
 2.1 Koncept
 2.2 Characteristics
-2.2.1 Classes
-2.2.2 Methods
-2.2.3 
-2.3 Figure
+
 
 3. [Golang](#Golang)
 
@@ -29,6 +26,10 @@ In the last chapter of this thesis, the differences between the programming lang
 
 # Koncept of Object Oriented Programming
 ## Concept
+Object-oriented programming is a programming paradigm of imperative programming. By encapsulating data and code in objects, the problem to be solved is worked out step by step. With OOP, a higher degree of abstraction is thus achieved through modularisation into objects than, for example, through a procedural programming language. Because of the encapsulation, the objects can be checked and tested independently of other parts of the programme. By encapsulating the variables in the objects, they can only be changed by the respective methods. This ensures that the variables of the object are not influenced by other parts of the programme.
+
+Object-oriented programming not only saves time because the code does not have to be written and adapted repeatedly, it also avoids copy-and-paste errors that occur during adaptation. Above all, through the inheritance of class-based languages, the basic code does not change through the original class and this makes it easier to implement new classes more quickly. Additionally it avoids to rewrite already existing methods a second time.
+
 ## Characteristics
 ### Classes
 
