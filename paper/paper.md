@@ -75,7 +75,7 @@ func main() {
 
 ```
 ### Inheritance
-
+Inheritance is solved in Go by embedding. Here, the structure of another structure is passed on, so that the "subclass" can execute the methods implemented for the "superclass".
 
 ```
 type Person structur{
