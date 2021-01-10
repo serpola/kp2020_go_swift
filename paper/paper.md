@@ -78,6 +78,23 @@ func main() {
 
 ### Polymorphism
 
+Virtual methods can be created through the Go interface. This means that a method can be implemented by different structures. Polymorphism is thus supported in Go.
+Instead of a square, one could also calculate the area with a rectangle. The code would then look like this:
+
+```
+type berechnung interface{
+Area() int
+}
+
+func ( q qurat) Area() in {
+Return  q.LaW * q.LaW
+
+}
+func ( r Rectangle) Area() int {
+Return  r.length * r.wide
+}
+```
+
 # 4.Swift
 
 # 5.Conclusion
