@@ -62,6 +62,7 @@ LaW int
 
 ### Methods
 Methods are implemented with the definite ```func```. The call is similar to classes, only called via the structur.
+Methods are implemented with the definition ```func```. The call is similar to classes, only called via the structures.
 ```
 Func ( q qudrat) Area () int{
 Return q.LaW * q.LaW
