@@ -43,11 +43,10 @@ Thanks to polymorphisation, methods can be overwritten. This means that in subcl
 ### Generalization
 In object-oriented programming, generalisation is used to bundle classes and objects with common properties and methods into one logical unit.
 
-# 3.Golang
+# 3. Golang
 Go lang is a open source Programming langue developed by Google and other contributors from the open source community. It was published in 2009. Go is a multi-paradigm language, which means it is imperative and declarative. Important in the conception of this language was that the memory is managed automatically, fast compilation is possible and native support for concurrent, system-oriented programming is possible. 
-## Classes
-Go does not use classes for the implementation of object orchestration. Instead, it uses structures and interfaces.
-### Structures
+## 3.1 Classes
+Go does not use classes for the implementation of object orchestration. Instead, it uses structures.
 A structure contains a collection of elements. This is a type declaration. Structures can also be nested to represent more complex models.
 ```
 type quadrat struct{
@@ -58,9 +57,7 @@ LaW int
 
 ```
 
-### Interfaces
-
-### Methods
+## 3.2 Methods
 Methods are implemented with the definite ```func```. The call is similar to classes, only called via the structur.
 Methods are implemented with the definition ```func```. The call is similar to classes, only called via the structures.
 ```
@@ -74,7 +71,7 @@ func main() {
 }
 
 ```
-### Inheritance
+## 3.3 Inheritance
 Inheritance is solved in Go by embedding. Here, the structure of another structure is passed on, so that the "subclass" can execute the methods implemented for the "superclass".
 
 ```
@@ -100,7 +97,7 @@ func main() {
 
 ```
 
-### Polymorphism
+## 3.4 Polymorphism
 
 Virtual methods can be created through the Go interface. This means that a method can be implemented by different structures. Polymorphism is thus supported in Go.
 Instead of a square, one could also calculate the area with a rectangle. The code would then look like this:
@@ -120,6 +117,14 @@ Return  r.length * r.wide
 ```
 
 # 4.Swift
+## 4.1 Classes
+
+## 4.2 Methods
+
+## 4.3 Inheritance
+
+## 4.4 Polymorphism
 
 # 5.Conclusion
 
+Structures can be used to define types in Go in order to programme in an object-oriented manner. Classes are not needed for the implementation of objects. Inheritance in Go is achieved by embedding one or more structures in an "inheriting" structure. The methods of the structures can be used for other structures by embedding them. In addition, Go uses polymorphism and avoids complex type hierarchies.
