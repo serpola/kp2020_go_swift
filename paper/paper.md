@@ -136,8 +136,31 @@ var lenth = 0
 
 }
 ```
+The creation of instances looks like this:
 
+```
+let p = Person()
+let rec = Rectangle()
+```
 ## 4.2 Methods
+Methods are implemented with the definition func. The call is the same for classes and structures.
+```
+class Calculation{
+var result = 0.
+
+func addition(byA a: Int, byB b: Int ){
+result = a + b
+}
+}
+
+//Using
+
+let cal = Calculation
+
+cal.addition(byA: 1, byB: 2 )
+
+//result is now 3.
+```
 
 ## 4.3 Inheritance
 
